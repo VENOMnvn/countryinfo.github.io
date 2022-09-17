@@ -1,0 +1,178 @@
+*
+{
+    
+    font-family: 'Titillium Web', sans-serif;
+}
+body
+{
+    background-color:rgb(1, 76, 157);
+}
+#welcomeContainer
+{
+    color: white;
+    
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width:90vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    margin: auto;
+    box-shadow: 10px 10px 20px rgb(131, 131, 131);
+    background: linear-gradient(rgb(78, 17, 136),blueviolet);
+
+    
+    /* display: none */
+;
+}
+.welcomechild
+{
+    width: 50%;
+    height: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 25px rgb(64, 14, 112);
+}
+#displayCoun
+{
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#countryDetail
+{
+    width: 90vw;
+    
+    background-color: white;
+    border-radius:10px;
+    margin: auto;
+    box-shadow: 8px 8px 20px rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.countryCard
+{
+box-shadow: 4px 4px 20px grey ;
+border: 2px solid grey;
+border-radius: 12px;
+margin: 15px;
+}
+
+.countryCard>p
+{
+    margin-left:20px;
+    /* border-radius:2px solid grey ; */
+}
+.name
+{
+    font-size: 2rem;
+    font-weight: 800;
+    margin:auto;
+    text-align: center;
+}
+.commonName
+{
+    font-size: 1.5rem;
+    /* font-weight: 800; */
+    margin:auto;
+    text-align: center;
+}
+.location
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.location>a>button
+{
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 3em;
+    background-color: blueviolet;
+    color:white;
+}
+.location>a>button:hover
+{
+    background-color: rgb(68, 12, 120);
+
+}
+#countryList
+{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img
+{
+    border-radius:10px;
+}
+footer
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(230, 227, 227);
+}
+footer>div>p
+{
+    font-weight: bolder;
+}
+footer>div>ul
+{
+list-style: none;
+font-weight: bold;
+}
+.contact>ul
+{
+ margin-top: 20px;   
+list-style: none;
+color: black;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+li
+{
+    margin: 10px;
+}
+
+li
+{
+    font-weight: bolder;
+
+}
+
+.contact>p
+{
+    margin-top: 20px;
+}
+@media (max-width :600px)
+{
+    #about
+    {
+        display: flex;
+        justify-content: center;
+        /* border: px solid blue; */
+    }
+}
+.button:hover
+{
+background-color:blueviolet;
+color: white;
+border: 2px solid white;
+}
